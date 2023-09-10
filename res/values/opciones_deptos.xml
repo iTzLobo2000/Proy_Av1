@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="strDeptos">
+        <item>Platillo de la costa</item>
+        <item>Platillo de la sierra</item>
+        <item>Platillo de la selva</item>
+        <item>Gustitos</item>
+    </string-array>
+</resources>

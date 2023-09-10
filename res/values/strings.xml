@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Primerapresentacion</string>
+    <string name="Titulo">Registrar plato</string>
+    <string name="Titulo2">Platillos Registrados</string>
+    <string name="txtNombre">Nombre de la comida</string>
+    <string name="txtprecio">¿Cuanto cuesta preparlo?</string>
+    <string name="txtingredientes">Ingredientes</string>
+    <string name="txtpassword">Ingrese su contraseña</string>
+    <string name="txtusuario">Ingrese su email</string>
+</resources>
