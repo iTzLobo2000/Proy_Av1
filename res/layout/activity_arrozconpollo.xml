@@ -6,4 +6,39 @@
     android:layout_height="match_parent"
     tools:context=".ArrozconpolloActivity">
 
+     <EditText
+        android:id="@+id/txtarrozpollo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        android:text=" Arroz con pollo\n\n
+Region: Platillo de la costa\n\n
+Precio en soles: 35\n\n
+Tiempo que demora: 2 horas\n\n
+Ingredientes:\n\n
+- 4 Piernas de Pollo\n
+- 2 Tazas de Arroz Blanco\n
+- 3 Tazas de Agua\n
+- 1 Cubo MAGGI Sabor Gallina\n
+- 3 Cebollas Rojas\n
+- 1 Tomate\n
+- 1 Zanahoria\n
+- 1/2 Taza de Arverjas\n
+- 1/2 Taza de Choclo Desgranado\n
+- 1 Taza de Culantro Deshojado\n
+- 1 Pizca de Sal\n
+- 2 Limones\n
+- 1 Cucharadita de Ajo Molido\n
+- 4 Cucharadas de Ají Amarillo Molido\n
+- 4 Cucharadas de Aceite Vegetal\n
+
+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.438"
+        tools:layout_editor_absoluteX="0dp" />
+    
 </androidx.constraintlayout.widget.ConstraintLayout>
