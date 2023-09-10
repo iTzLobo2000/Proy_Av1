@@ -5,7 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ArrozconpolloActivity">
-
+    
+  <Button
+        android:id="@+id/btnatras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E63C3C"
+        android:text="atras"
+        tools:ignore="MissingConstraints" />
+    
      <EditText
         android:id="@+id/txtarrozpollo"
         android:layout_width="match_parent"
