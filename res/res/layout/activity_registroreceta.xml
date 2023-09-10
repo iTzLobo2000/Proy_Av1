@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/purple_200"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnatras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E63C3C"
+            android:text="atras" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Titulo"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/txtnombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/txtNombre"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+
+        <Spinner
+            android:id="@+id/cboDpto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/strDeptos"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/txtprecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/txtprecio"
+            android:inputType="textMultiLine"
+            android:minHeight="48dp"/>
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtcabecera"
+            android:text="Tiempo de preparado aprox:"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rboUnahora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1h  " />
+
+            <RadioButton
+                android:id="@+id/rboDoshoras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2h  " />
+
+            <RadioButton
+                android:id="@+id/rboTreshoras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3h  " />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/txtingredientes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/txtingredientes"
+            android:inputType="textMultiLine"
+            android:minHeight="48dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnGuardar"
+            android:text="Guardar registro" />
+
+    </LinearLayout>
+
+</LinearLayout>

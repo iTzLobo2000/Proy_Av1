@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TallarinesrojosActivity">
+
+    <Button
+        android:id="@+id/btnatras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E63C3C"
+        android:text="atras"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txttallarinesrojo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:minHeight="18dp"
+        android:text=" Arroz con pollo\n\n
+Region: Platillo de la costa\n\n
+Precio en soles: 20\n\n
+Tiempo que demora: 2 horas\n\n
+Ingredientes:\n\n
+- 400 g de tallarines o Tagliatelle Garofalo\n
+- 4 muslo de pollo con piel, mejor si son camperos\n
+- 1 hoja de laurel\n
+- 4 tomates maduros\n
+- 1 cebolla y media\n
+- 3 dientes de ajo\n
+- 1 zanahoria grande\n
+- 1 cucharada de pasta de ají\n
+- Sal y pimienta negra recién molida (al gusto de cada casa)\n
+- Comino molido\n
+- Aceite de oliva virgen extra\n
+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.257" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
