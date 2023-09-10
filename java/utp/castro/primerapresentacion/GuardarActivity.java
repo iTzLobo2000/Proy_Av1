@@ -12,7 +12,9 @@ public class GuardarActivity extends AppCompatActivity {
 
     EditText et1;
     TextView tv1;
-
+    Button btnatras;
+    
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +22,7 @@ public class GuardarActivity extends AppCompatActivity {
 
         et1=findViewById(R.id.txtnombre);
         tv1=findViewById(R.id.txtcontenido);
+        btnatras=findViewById(R.id.btnatras);
 
         String datos="Region: "+getIntent().getStringExtra("cboDeptos") +
                 "\n\nPrecio en soles: "+getIntent().getStringExtra("txtprecio")+
@@ -28,5 +31,13 @@ public class GuardarActivity extends AppCompatActivity {
 
         et1.setText(getIntent().getStringExtra("txtnombre"));
         tv1.setText(datos);
+
+        btnatras.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(GuardarActivity.this,PlatosregistradosActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
